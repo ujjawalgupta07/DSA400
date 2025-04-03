@@ -47,6 +47,7 @@ public class BellmanFordAlgo {
                 }
             }
         }
+
         for (int[] edge : edges) {
             int fNode = edge[0];
             int sNode = edge[1];
